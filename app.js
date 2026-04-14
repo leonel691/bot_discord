@@ -31,6 +31,7 @@ client.on(Events.MessageCreate, (message) => {
 
     if (message.content.toLowerCase().includes('!ping')) {
         message.reply('Pong (via ES Modules) !');
+        message.channel.send("📢 @everyone, ceci est un message important !");
     }
 });
 
