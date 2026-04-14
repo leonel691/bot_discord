@@ -83,6 +83,14 @@ discordbot/
 - [discord.js](https://discord.js.org/) - Bibliothèque Discord pour Node.js
 - [dotenv](https://www.npmjs.com/package/dotenv) - Gestion des variables d'environnement
 
+## Déploiement
+
+Le projet a été mis à jour et déployé sur AWS. Désormais, tout le monde peut le tester en temps réel avec le lien suivant :
+
+BOT_URL="https://discord.com/oauth2/authorize?client_id=1493599709472755782&permissions=8&integration_type=0&scope=bot"
+
+Assurez-vous d'avoir les droits d'administrateur dans le serveur Discord où vous souhaitez installer le bot.
+
 ## Licence
 
 ISC
